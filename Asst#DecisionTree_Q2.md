@@ -53,8 +53,9 @@
 - **Performance Comparison**: Comparable to Information Gain
 - **Variance**: Error bars show stability across folds
 
-<img width="1536" height="754" alt="U1" src="https://github.com/Halcyora/ML_ES335/blob/main/Decision%20Tree%20Implementation/CE4.png" />
-
+<div align="center">
+<img src="CE4.png" width=700px>
+</div>
 #### Key Findings
 
 1. **Depth Selection**: Nested CV prevents overfitting by selecting depth based on validation performance
@@ -64,7 +65,9 @@
 
 ### Visualization Analysis
 
-<img width="1536" height="754" alt="U1" src="https://github.com/Halcyora/ML_ES335/blob/main/Decision%20Tree%20Implementation/CE1.png" />
+<div align="center">
+<img src="CE1.png" width=700px>
+</div>
 
 #### Dataset Scatter Plot
 - Shows clear separation between classes
@@ -85,7 +88,9 @@ The generated decision trees show:
 3. **Leaf Purity**: Terminal nodes achieve good class separation
 4. **Feature Usage**: Both features are utilized in the splitting process
 
-<img width="1536" height="754" alt="U1" src="https://github.com/Halcyora/ML_ES335/blob/main/Decision%20Tree%20Implementation/CE2.png" />
+<div align="center">
+<img src="CE2.png" width=700px>
+</div>
 
 ### Conclusions
 

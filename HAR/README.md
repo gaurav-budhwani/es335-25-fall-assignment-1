@@ -112,7 +112,7 @@ For Total Acceleration:
 </div>
 For TSFEL Features:
 <div align="center">
-<img src="results/deoth_tsfel.png" width=700px>
+<img src="results/depth_tsfel.png" width=700px>
 </div>
 For Dataset Features:
 <div align="center">

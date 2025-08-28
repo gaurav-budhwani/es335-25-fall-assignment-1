@@ -71,7 +71,9 @@
 3. **Trend Lines**: Reveal scaling behavior patterns
 4. **Comparison**: Differences between the four cases
 
-<img width="1536" height="754" alt="11" src="https://github.com/user-attachments/assets/81bcc3b3-0b3f-4920-bf32-2485c8253c36" />
+<div align="center">
+<img src="11.png" width=700px>
+</div>
 
 #### Key Patterns
 1. **Fit Time vs N**: Should show linear relationship on log-log plot
@@ -167,9 +169,26 @@
 4. **Ensemble Consideration**: For large datasets, consider Random Forest
 5. **Profiling**: Monitor actual performance in production environments
 
-<img width="1536" height="754" alt="U1" src="https://github.com/Halcyora/ML_ES335/blob/main/Decision%20Tree%20Implementation/U1.png" />
-<img width="1536" height="754" alt="U1" src="https://github.com/Halcyora/ML_ES335/blob/main/Decision%20Tree%20Implementation/U2GI.png" />
-<img width="1536" height="754" alt="U1" src="https://github.com/Halcyora/ML_ES335/blob/main/Decision%20Tree%20Implementation/U2IG.png" />
-<img width="1536" height="754" alt="U1" src="https://github.com/Halcyora/ML_ES335/blob/main/Decision%20Tree%20Implementation/U3GI.png" />
-<img width="1536" height="754" alt="U1" src="https://github.com/Halcyora/ML_ES335/blob/main/Decision%20Tree%20Implementation/U3IG.png" />
-<img width="1536" height="754" alt="U1" src="https://github.com/Halcyora/ML_ES335/blob/main/Decision%20Tree%20Implementation/U4.png" />
+<div align="center">
+<img src="U1.png" width=700px>
+</div>
+
+<div align="center">
+<img src="U2G1.png" width=700px>
+</div>
+
+<div align="center">
+<img src="U2IG.png" width=700px>
+</div>
+
+<div align="center">
+<img src="U3GI.png" width=700px>
+</div>
+
+<div align="center">
+<img src="U3IG.png" width=700px>
+</div>
+
+<div align="center">
+<img src="U4.png" width=700px>
+</div>

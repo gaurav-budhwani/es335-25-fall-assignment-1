@@ -68,21 +68,31 @@ The implementation successfully handles all four test cases:
 
 The implementation provides clear tree structure visualization:
 1. **Real Input → Real Output (Regression)**
-   <img width="1536" height="754" alt="U1" src="https://github.com/user-attachments/assets/a21fc3cb-ab7e-420f-9bf5-c6c1db576a6b" />
+   <div align="center">
+   <img src="U1.png" width=700px>
+   </div>
 2. **Real Input → Discrete Output (Classification)**
    - Criteria : Information Gain
-   <img width="1536" height="754" alt="U2GI" src="https://github.com/user-attachments/assets/3a18fc53-7aeb-4910-a26d-101b9e83ac9a" />
+  <div align="center">
+   <img src="U2IG.png" width=700px>
+   </div>
    - Criteria : Gini Index
-   <img width="1536" height="754" alt="U2IG" src="https://github.com/user-attachments/assets/f89f076d-a286-4eb2-ab29-4a0d23f49fbc" />
+   <div align="center">
+   <img src="U2GI.png" width=700px>
+   </div>
 3. **Discrete Input → Discrete Output (Classification)**
    - Criteria : Information Gain
-   <img width="1536" height="754" alt="U3GI" src="https://github.com/user-attachments/assets/a2967b9b-2107-47ee-9928-1fece0d147cf" />
+   <div align="center">
+   <img src="U3IG.png" width=700px>
+   </div>
    - Criteria : Gini Index
-   <img width="1536" height="754" alt="U3IG" src="https://github.com/user-attachments/assets/1f30bf0d-6158-462a-8092-460d2cd0ed86" />
+   <div align="center">
+   <img src="U3GI.png" width=700px>
+   </div>
 4. **Discrete Input → Real Output (Regression)**
-   <img width="1536" height="754" alt="U4" src="https://github.com/user-attachments/assets/ab234205-3607-4bc1-8852-f0659e13dd32" />
-
-
+   <div align="center">
+   <img src="U4.png" width=700px>
+   </div>
 
 ### Key Design Decisions
 

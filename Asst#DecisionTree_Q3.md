@@ -47,7 +47,9 @@
 
 #### Tree Structure Analysis
 
-<img width="1536" height="754" alt="U1" src="https://github.com/Halcyora/ML_ES335/blob/main/Decision%20Tree%20Implementation/AE1.png" />
+<div align="center">
+<img src="AE1.png" width=700px>
+</div>
 
 The tree structure revealed:
 1. **Primary Splits**: Displacement, horsepower, and model year dominate.  
@@ -96,8 +98,9 @@ The tree structure revealed:
 - Visualization confirms **displacement** and **horsepower** are dominant predictors.  
 - Model year contributes moderately.  
 
-<img width="1536" height="754" alt="U1" src="https://github.com/Halcyora/ML_ES335/blob/main/Decision%20Tree%20Implementation/AE2.png" />
-
+<div align="center">
+<img src="AE2.png" width=700px>
+</div>
 ---
 
 ### Key Findings

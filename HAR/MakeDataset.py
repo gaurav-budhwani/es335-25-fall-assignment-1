@@ -68,19 +68,18 @@ y_test = np.array(y_test)
                                                 # Final Dataset
 #=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
-# USE THE BELOW GIVEN DATA FOR TRAINING and TESTING purposes
+# USE THE BELOW GIVEN DATA FOR TRAINING, TESTING, AND VALIDATION purposes
 
 # concatenate the training and testing data
 X = np.concatenate((X_train,X_test))
 y = np.concatenate((y_train,y_test))
 
-# split the data into training and testing sets. Change the seed value to obtain different random splits.
-seed = 4
-X_train,X_test,y_train,y_test = train_test_split(X,y,test_size=0.3,random_state=seed,stratify=y)
+# split the data into training,testing, and validation sets
+X_train,X_test,y_train,y_test = train_test_split(X,y,test_size=0.3,random_state=4,stratify=y)
+X_test,X_val,y_test,y_val = train_test_split(X_test,y_test,test_size=0.5,random_state=4,stratify=y_test)
 
 print("Training data shape: ",X_train.shape)
 print("Testing data shape: ",X_test.shape)
+print("Validation data shape: ",X_val.shape)
 
 #=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-
-
